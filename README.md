@@ -6,7 +6,7 @@
 
 ## 我的联系方式
 
-- Address: **南京的某个天桥下～**
+- Address: **南京~某个天桥下~**
 - Phone: **+86 17183460320**
 - E-mail:**[2385680272@qq.com](mailto:2385680272@qq.com)**
 - WeChat: **Rosa_panda**
