@@ -5,7 +5,7 @@
 <!-- slide vertical=true -->
 - **我现在的工作**
 <!-- slide vertical=true -->
-**我是一个网管，普普通通的网管，早年曾撸过一段时间java，但我不是懂得一个坚持的人，我放弃了～**
+**我是一个网管，普普通通的网管，早年曾撸过一段时间java，但我不是一个懂得坚持的人，我放弃了～**
 <!-- slide vertical=true -->
 - **我的教育情况**
 <!-- slide vertical=true -->
