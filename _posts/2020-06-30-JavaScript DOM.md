@@ -80,15 +80,15 @@ Dom试玩.html
 ```
 test1.js
 ```javascript
-alert(typeof document.getElementById("purchases"));
-alert(document.getElementsByTagName("li").length);
+alert(typeof document.getElementById("purchases"));     //getElementById
+alert(document.getElementsByTagName("li").length);   //getElementsByTagName
 var items = document.getElementsByTagName("li").length;
 for (var i=0; i < items; i++)
 {
     alert(typeof document.getElementsByTagName("li")[i]);
 }
 var shopping = document.getElementById("purchases");
-var sales = shopping.getElementsByClassName("sale");
+var sales = shopping.getElementsByClassName("sale");        //getElementsByClassName
 alert (sales.length);
 var parars = document.getElementsByTagName("p");
 for (var i = 0; i < parars.length; i++)
@@ -100,7 +100,7 @@ for (var i = 0; i < parars.length; i++)
     }
     if (parars[i].getAttribute("title"))
     {
-        alert(parars[i].getAttribute("title"));
+        alert(parars[i].getAttribute("title"));             //getAttribute
     }
 }
 var paras = document.getElementsByTagName("p");
@@ -108,7 +108,7 @@ for (var i = 0; i < paras.length; i++){
     var title_text = paras[i].getAttribute("title");
     if (title_text)
     {
-        paras[i].setAttribute("title","12345");
+        paras[i].setAttribute("title","12345");        //setAttribute
         alert(paras[i].getAttribute("title"));
     }
 }
