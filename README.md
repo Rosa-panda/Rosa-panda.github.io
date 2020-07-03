@@ -1,4 +1,3 @@
-<meta name="baidu-site-verification" content="uiyfwoDVX1" />
 # 程程&金满满
 导航栏在右上角 (小聲
 <!-- slide -->
