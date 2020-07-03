@@ -5,7 +5,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   13岁的油腻大叔<br/>
   <br/>
   什么IT技能都不精通的运维工程师<br/>
-  <a href="mailto:2385680272@qq.com">
+  <a href="mailto:i@rosa-panda.com]">
     <i class="fas fa-envelope"></i>
   </a>
   <a href="https://github.com/Rosa-panda">
@@ -516,8 +516,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               onload='
                 new Valine({
                   "el": document.getElementsByClassName("v")[0],
-                  "appId": "D7OEgDgR74fO2bPDEbxSAXcm-gzGzoHsz",
-                  "appKey": "JwePKPSmLjBY6oFlGyI2UUgB",
+                  "appId": "xgmmSnHTf6AAoU66LDA6LvHI-gzGzoHsz",
+                  "appKey": "EUMVTGtEMpR3910AVSmhsRtn",
                   "placeholder": "在这里评论吧！填写邮箱可以获得 Gravatar 头像和回复通知哦",
                   "requiredFields": ["nick","mail"],
                   "visitor": true,

@@ -24,7 +24,7 @@
 **背井离乡的人，铺张草席便是家～**
 <!-- slide vertical=true -->
 - Phone: **+86 17183460320**
-- E-mail:**[2385680272@qq.com](mailto:2385680272@qq.com)**
+- E-mail:**[i@rosa-panda.com](mailto:i@rosa-panda.com])**
 - WeChat: **Rosa_panda**
 - QQ: **2385680272**
 
