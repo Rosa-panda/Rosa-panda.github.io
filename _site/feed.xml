@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-25T15:49:17+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Panda</title><subtitle>&lt;br/&gt;
+一百多斤的人&lt;br/&gt;
+&lt;br/&gt;
+13岁的油腻大叔&lt;br/&gt;
+&lt;br/&gt;
+什么IT技能都不精通的运维工程师&lt;br/&gt;
+&lt;a href=&quot;mailto:i@rosa-panda.com]&quot;&gt;
+  &lt;i class=&quot;fas fa-envelope&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+&lt;a href=&quot;https://github.com/Rosa-panda&quot;&gt;
+  &lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+&lt;iframe
+  src=&quot;https://music.163.com/outchain/player?type=2&amp;id=26237342&amp;auto=0&amp;height=32&quot;
+  width=100%
+  height=37
+  frameborder=&quot;no&quot;
+  border=&quot;0&quot;
+  marginwidth=&quot;0&quot;
+  marginheight=&quot;0&quot;
+&gt;&lt;/iframe&gt;
+</subtitle><entry><title type="html">程程的遗书</title><link href="http://localhost:4000/_posts/2020-07-21-%E9%81%97%E4%B9%A6(%E7%A8%BF)/" rel="alternate" type="text/html" title="程程的遗书" /><published>2020-07-21T00:00:00+08:00</published><updated>2020-07-21T00:00:00+08:00</updated><id>http://localhost:4000/_posts/%E9%81%97%E4%B9%A6(%E7%A8%BF)</id><content type="html" xml:base="http://localhost:4000/_posts/2020-07-21-%E9%81%97%E4%B9%A6(%E7%A8%BF)/">&lt;h1 id=&quot;程程的遗书&quot;&gt;程程的遗书&lt;/h1&gt;
+
+&lt;p&gt;2016年5月20日,爷爷永远的走了.我回想最后一次和他说话的时候,我没想到那一次就是永别.爷爷去世,打破了我心中的童话世界,我开始真正的客观意识到一个事实,人真的会死~这个事实!我逃避,我不知所措.不过现在我放弃抵抗了.早晚的事情,我也会死的吧…
+应当坦然接受,我随时会死去这个事实,从而努力的活在这个当下.  (遗书具体内容后补)&lt;/p&gt;</content><author><name></name></author><category term="杂谈" /><summary type="html">程程的遗书</summary></entry><entry><title type="html">一个假想的理财</title><link href="http://localhost:4000/_posts/2020-07-20-%E4%B8%80%E4%B8%AA%E5%81%87%E6%83%B3%E7%9A%84%E7%90%86%E8%B4%A2/" rel="alternate" type="text/html" title="一个假想的理财" /><published>2020-07-20T00:00:00+08:00</published><updated>2020-07-20T00:00:00+08:00</updated><id>http://localhost:4000/_posts/%E4%B8%80%E4%B8%AA%E5%81%87%E6%83%B3%E7%9A%84%E7%90%86%E8%B4%A2</id><content type="html" xml:base="http://localhost:4000/_posts/2020-07-20-%E4%B8%80%E4%B8%AA%E5%81%87%E6%83%B3%E7%9A%84%E7%90%86%E8%B4%A2/">&lt;h2 id=&quot;一个假想的理财&quot;&gt;一个假想的理财&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-c&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+
+/**
+ * 这里描述的是一个假想的投资理财
+ * 每年投入定额资金(月投入3000,年投入36000)进入一个固定年利率(%6)的市场,需要多久我的资产能破一个亿呢?
+ * @return 程程
+ */
+int main() {
+    int benjin = 36000;         //每年投入的钱
+    double beilv = 1.06;        //年利率
+    int resultCache = 0;             //结果缓存
+    int result = 0;     //当年结果
+    for (int i = 1; result &amp;lt; 100000000; i++)
+    {
+        result = (benjin + resultCache) * beilv;
+        resultCache = result;
+        printf(&quot;第%d\t%d\n&quot;,i,resultCache);
+    }
+    return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以下是输出结果:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-asp&quot;&gt;第74	46797682
+第75	49643702
+第76	52660484
+第77	55858273
+第78	59247929
+第79	62840964
+第80	66649581
+第81	70686715
+第82	74966077
+第83	79502201
+第84	84310493
+第85	89407282
+第86	94809878
+第87	100536630
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;从输出结果来看,理财87年以后,我的财产就能过亿,但是如果不理财的话,我87年时间,能存下的钱只有有 36000 * 87 = 3132000元(完全不算利息情况),也就只有300多万,
+甚至不理财的人,因为超前或过度消费等不良行为和习惯,导致每年都存不进去钱,有些甚至欠了一屁股债,最后的结果是穷困一生.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;最后的结论: 时间就是最宝贵的财富,理财越早越好!&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;资本复利区&lt;br /&gt;
+不是天塌下来了,这个区域的钱,绝不动用.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;复利目标  &lt;br /&gt;
+55年以后(我79岁),个人财产,破8位数.    &lt;br /&gt;
+投入要求: 每月至少投入资本复利区2000元人民币.  &lt;br /&gt;
+理财要求: 每年的总资本复利为资产的%6&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="杂谈" /><summary type="html">一个假想的理财</summary></entry><entry><title type="html">自己的上进模式设计</title><link href="http://localhost:4000/_posts/2020-07-16-%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%8A%E8%BF%9B%E6%A8%A1%E5%BC%8F%E8%AE%BE%E8%AE%A1/" rel="alternate" type="text/html" title="自己的上进模式设计" /><published>2020-07-16T00:00:00+08:00</published><updated>2020-07-16T00:00:00+08:00</updated><id>http://localhost:4000/_posts/%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%8A%E8%BF%9B%E6%A8%A1%E5%BC%8F%E8%AE%BE%E8%AE%A1</id><content type="html" xml:base="http://localhost:4000/_posts/2020-07-16-%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%8A%E8%BF%9B%E6%A8%A1%E5%BC%8F%E8%AE%BE%E8%AE%A1/">&lt;h2 id=&quot;设计一个让自己上瘾的上进模式&quot;&gt;设计一个让自己上瘾的上进模式&lt;/h2&gt;
+
+&lt;h3 id=&quot;第一步-把自己放进一个容易进入上进状态的环境&quot;&gt;第一步: 把自己放进一个容易进入上进状态的环境&lt;/h3&gt;
+&lt;p&gt;什么样的环境是可以更好的使人上进环境呢?我这里提供环境的两个指标&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;傻瓜指数:一个人最近一次觉得自己是个傻瓜的时间是什么时候,如果这个想法是十年前,那么傻瓜指数就是十年,傻瓜指数越短,说明这个环境越催人上进.&lt;/li&gt;
+  &lt;li&gt;朋友指数:自己想一下,自己身边有多少优秀的新朋友,这样的新朋友越多,说明这个环境越催人上进.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;第二步-自己绑架自己&quot;&gt;第二步: 自己绑架自己&lt;/h3&gt;
+&lt;p&gt;一个人的意志是有穷的,如果想要持续做一件消耗意志的事情,就需要借助外界的力量.举个例子,学习是很消耗意志的事情,但是现在网上会有人直播自己的学习,
+因为看自己直播的人多了,自己也就被自己”绑架”了,所以被”绑架”的人不得不学习.&lt;/p&gt;
+
+&lt;h3 id=&quot;第三步-一个让人上瘾的反馈&quot;&gt;第三步: 一个让人上瘾的反馈&lt;/h3&gt;
+&lt;p&gt;经常会听说到有人赌博上瘾脸,有没有人思考过为什么会有人赌博上瘾呢,我个人认为是因为赌博的不确定性,不确定性就是有这个魅力使人上瘾.
+所以在寻求上进的路上,我们需要寻找一些不确定的反馈,我们不确定结果是什么,所以我们对结果的反馈充满期待,这个过程使我们上瘾.&lt;/p&gt;
+
+&lt;h3 id=&quot;第四步-将大目标切碎&quot;&gt;第四步: 将大目标切碎&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;心流: 一个人将个人精力完全投注在某种活动上的状态.(干一件事情的时候,突然把时间忘了)&lt;/li&gt;
+  &lt;li&gt;技能挑战比: 做一件事情不能太难,太难的话,我们坚持不下去,也不能太容易,太容易就太无聊了,也会坚持不下去.&lt;/li&gt;
+  &lt;li&gt;高手练成: 一件事情有一点挑战,但是又不是太难的情况下,最容易吸引我们坚持下去.一个行业的高手就是能把自己极其远大的那些目标,拆分成一阶一阶
+细碎台阶的人.他们是知道怎么样踏着台阶,一点一点的向上爬,这就是高手.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;最后&quot;&gt;最后~&lt;/h3&gt;
+&lt;p&gt;主要摘自于,&lt;a href=&quot;https://www.youtube.com/watch?v=1YI1k1iTFd8&amp;amp;list=PLiE8kU44U7tZcWoB77FVZQ2WCavDwdsiX&amp;amp;index=7&quot;&gt;罗振宇 知识就是力量：怎样逼自己成为一个上进的人&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="变动&amp;方向" /><summary type="html">设计一个让自己上瘾的上进模式</summary></entry><entry><title type="html">锻炼计划</title><link href="http://localhost:4000/_posts/2020-07-12-%E9%94%BB%E7%82%BC%E8%AE%A1%E5%88%92/" rel="alternate" type="text/html" title="锻炼计划" /><published>2020-07-12T00:00:00+08:00</published><updated>2020-07-12T00:00:00+08:00</updated><id>http://localhost:4000/_posts/%E9%94%BB%E7%82%BC%E8%AE%A1%E5%88%92</id><content type="html" xml:base="http://localhost:4000/_posts/2020-07-12-%E9%94%BB%E7%82%BC%E8%AE%A1%E5%88%92/">&lt;h1 id=&quot;2020年7月12日版本&quot;&gt;2020年7月12日版本&lt;/h1&gt;
+&lt;p&gt;以下为一日的量&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;平板支撑一分钟.&lt;/li&gt;
+  &lt;li&gt;慢速俯卧撑20个一组,每日3组.&lt;/li&gt;
+  &lt;li&gt;倒立,一日一次,一次两分钟.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="变动&amp;方向" /><summary type="html">2020年7月12日版本 以下为一日的量 平板支撑一分钟. 慢速俯卧撑20个一组,每日3组. 倒立,一日一次,一次两分钟.</summary></entry><entry><title type="html">自己指导自己</title><link href="http://localhost:4000/_posts/2020-07-11-%E8%87%AA%E5%B7%B1%E6%8C%87%E5%AF%BC%E8%87%AA%E5%B7%B1/" rel="alternate" type="text/html" title="自己指导自己" /><published>2020-07-11T00:00:00+08:00</published><updated>2020-07-11T00:00:00+08:00</updated><id>http://localhost:4000/_posts/%E8%87%AA%E5%B7%B1%E6%8C%87%E5%AF%BC%E8%87%AA%E5%B7%B1</id><content type="html" xml:base="http://localhost:4000/_posts/2020-07-11-%E8%87%AA%E5%B7%B1%E6%8C%87%E5%AF%BC%E8%87%AA%E5%B7%B1/">&lt;h2 id=&quot;自己指导自己&quot;&gt;自己指导自己&lt;/h2&gt;
+&lt;p&gt;理论应当与时俱进,所以这篇会长期更新!&lt;/p&gt;
+
+&lt;h3 id=&quot;大计划&quot;&gt;大计划&lt;/h3&gt;
+&lt;p&gt;文凭 –&amp;gt;本科    (2020年6月26日)&lt;/p&gt;
+
+&lt;h3 id=&quot;目前的学习方法&quot;&gt;目前的学习方法&lt;/h3&gt;
+&lt;p&gt;先把自己的病症在这里先列出来,后面对症下药.&lt;br /&gt;
+症状一: 注意力不集中,容易走神.(没有养成学习习惯)&lt;br /&gt;
+症状二: 学过的东西立马就忘掉了.(这个应是症状一延伸的症状)&lt;br /&gt;
+症状三: 每天发呆的时间比较多,可能看一会儿书,就看不下去了.(改变的愿望还是不够强烈)&lt;br /&gt;
+&lt;br /&gt;
+以下是学习方法:&lt;br /&gt;
+&lt;del&gt;&lt;strong&gt;番茄钟学习法&lt;/strong&gt;  (2020年6月26日)&lt;/del&gt; &lt;br /&gt;
+&lt;del&gt;设定一个&lt;u&gt;学习时间&lt;/u&gt;,如45分钟,要求自己在这45分钟必须去专心去学习那一门课,不是超级特殊的情况,不要停止.学习时间过去以后,是5分钟的&lt;u&gt;复习时间&lt;/u&gt;,用来复习之前看的东西,而后就是&lt;u&gt;休息时间&lt;/u&gt;,休息时间要求自己,忘掉自己之前的一切想法,建议去睡觉(15分钟这样).休息完以后,开始下一门课程的学习,慢慢的就会转成一个学习的课程的学习环.&lt;br /&gt;
+学习时间(30~45min) –&amp;gt;复习时间(5min) –&amp;gt;休息时间(15min) –&amp;gt;下一轮的学习时间&lt;/del&gt;&lt;br /&gt;
+&lt;del&gt;操作系统 –&amp;gt; C++ –&amp;gt;中国近代史 –&amp;gt; JavaScript –&amp;gt; 计算机网络 –&amp;gt;操作系统&lt;/del&gt;&lt;br /&gt;
+(这个方法的缺点就是学不爽,有时候学到一半,时间就到了,好不容易进入的模式,就要去看下一门课了)&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;&lt;strong&gt;番茄学爽法&lt;/strong&gt; (2020年7月2日)&lt;/del&gt;&lt;br /&gt;
+&lt;del&gt;以番茄钟学习法为基础,不设定学习时间,但是开始学习的时候记录开始的时间,要求自己在记录时间以后全神贯注,一门课程不建议连续学习超过一个半小时,其他的内容照搬番茄钟学习法.&lt;/del&gt;&lt;br /&gt;
+(这个方法的缺点就是思维切换太频繁,几分钟前看近代史,几十分钟又去敲代码,代码思维和背书思维一直切,导致不能完全进入状态)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;沉迷学习法&lt;/strong&gt; (2020年7月8日)&lt;br /&gt;
+首先定一个两个小时的防止沉迷的闹钟,然后选择一门课开始学习,沉迷学习两小时后,闹钟响了,就一定要把前面两个小时学习的东西总结到博客上面去,总结是很重要的,知识不总结就能难吸收,至少我这个人就是这么笨…&lt;br /&gt;
+(因为最近一段时间的锻炼,发现自己已经可以沉迷学习了,所以就没有使用番茄的方法,使用番茄的方法主要是想提高自己的注意力)&lt;/p&gt;
+
+&lt;h3 id=&quot;心态上的设定模式&quot;&gt;心态上的设定模式&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;不可自我感动,少矫情,多做,少乱想,特别是在学习时间里,绝对不允许自我走神,你可以被外界中断,但是不可自我中断.  (2020年6月26日)&lt;/li&gt;
+  &lt;li&gt;不要追求完美,计划常常赶不上变化,但是不要因为这样就放弃了计划,计划可以不完美,但你可以一直去执行并优化计划.  (2020年6月26日)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;目前的记忆方法&quot;&gt;目前的记忆方法&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;目前就是重复看,反复理解,理解多少,就记多少,忘了就回头看,大概是最笨的方法吧,特别羡慕别人的过目不忘. (2020年6月26日)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;关于自我控制&quot;&gt;关于自我控制&lt;/h3&gt;
+&lt;p&gt;我还是存在很大的问题,不能控制自己,一有点干扰可能就会中断掉原本的计划,追其原因,还是目标不够明确,每天的目标不明确,有时候每天的目标订的太高,就失去了做下去的动力.  &lt;br /&gt;
+以下是解决方案:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;明确自己的目标,我该做什么不该做什么,做任何事情之前就要考虑.   (2020年6月27日)&lt;/li&gt;
+  &lt;li&gt;将目标订的易于实现,有助于完成计划,树立信心.   (2020年6月27日)&lt;/li&gt;
+  &lt;li&gt;办事之前先了解一下现在的时间,然后预计自己要多长时间完成这件事情.(2020年6月30日)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;做一个自律的人&quot;&gt;做一个自律的人&lt;/h3&gt;
+&lt;p&gt;解决人生问题的首要方案，是自律，完整的自律才能解决所有的问题。  &lt;br /&gt;
+自律的前提是要去自控,用自控去避免坏习惯 &lt;br /&gt;
+所谓自律，是以积极主动的态度，去解决人生痛苦的重要原则，主要包括四个方面：推迟满足感、承担责任、尊重事实、保持平衡。  &lt;br /&gt;
+人体本身就是欲望的集合体，欲望是由我们自身的本能所决定的。 &lt;br /&gt;
+也就是弗洛伊德所说的本我概念。个体的欲望都是由本我自发产生的，是一种本能行为。无论是生理性的还是心理性的，本能结构的欲望，是可以无穷无尽的产生出来的。&lt;/p&gt;</content><author><name></name></author><category term="变动&amp;方向" /><summary type="html">自己指导自己 理论应当与时俱进,所以这篇会长期更新!</summary></entry><entry><title type="html">反对外国侵略斗争</title><link href="http://localhost:4000/_posts/2020-07-10-%E5%8F%8D%E5%AF%B9%E5%A4%96%E5%9B%BD%E4%BE%B5%E7%95%A5%E6%96%97%E4%BA%89/" rel="alternate" type="text/html" title="反对外国侵略斗争" /><published>2020-07-10T00:00:00+08:00</published><updated>2020-07-10T00:00:00+08:00</updated><id>http://localhost:4000/_posts/%E5%8F%8D%E5%AF%B9%E5%A4%96%E5%9B%BD%E4%BE%B5%E7%95%A5%E6%96%97%E4%BA%89</id><content type="html" xml:base="http://localhost:4000/_posts/2020-07-10-%E5%8F%8D%E5%AF%B9%E5%A4%96%E5%9B%BD%E4%BE%B5%E7%95%A5%E6%96%97%E4%BA%89/">&lt;p&gt;&lt;strong&gt;(前面带有”&amp;amp;”号的,是机构标的重点).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;第一章反对外国侵略斗争&quot;&gt;第一章:反对外国侵略斗争&lt;/h1&gt;
+
+&lt;h2 id=&quot;第一节鸦片战争前的中国与世界&quot;&gt;第一节:鸦片战争前的中国与世界&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;中国封建社会的主要矛盾识记&quot;&gt;中国封建社会的主要矛盾(识记)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;中国封建社会的主要矛盾是地主阶级和农民阶级的矛盾&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;中国封建社会的基本特点领会&quot;&gt;&amp;amp;中国封建社会的基本特点(领会)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;经济：小农经济.&lt;/li&gt;
+  &lt;li&gt;政治：高度中央集权的封建君主专制制度.&lt;/li&gt;
+  &lt;li&gt;文化：以儒家思想为核心.&lt;/li&gt;
+  &lt;li&gt;社会结构：宗族家长制.&lt;br /&gt;
+综上:中国封建社会的主要矛盾是地主阶级和农民阶级的矛盾，一方面它巩固和维系了中国封建社会的长期延续和稳定,另一方面，随着中国封建社会由盛转衰，阶级间的矛盾日益显现，造成了一系列的社会危机。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;中国封建社会末期的社会危机是什么&quot;&gt;中国封建社会末期的社会危机是什么&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;政治：官僚机构膨胀，各级官僚徇私舞弊&lt;/li&gt;
+  &lt;li&gt;经济：土地兼并严重，百姓无地可种&lt;/li&gt;
+  &lt;li&gt;思想：大兴文字狱&lt;/li&gt;
+  &lt;li&gt;对外关系：实行闭关锁国&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;第二节列强对中国的侵略争取民族独立的斗争&quot;&gt;第二节:列强对中国的侵略,争取民族独立的斗争&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;近代中国半殖民地半封建社会的主要特点&quot;&gt;&amp;amp;近代中国半殖民地半封建社会的主要特点&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;资本帝国主义不但操控了中国的财政和经济命脉而且控制了中国政治.&lt;/li&gt;
+  &lt;li&gt;中国封建势力同外国侵略势力相勾结,成为外国列强,压迫奴役中国人民的社会基础和统治支柱.&lt;/li&gt;
+  &lt;li&gt;中国的自然经济的基础虽然遭到破坏,但是封建剥削制度的根基依然在广大地区内保持着,成为中国走向现代化和民主化的障碍.&lt;/li&gt;
+  &lt;li&gt;中国的资本主义有所发展,但始终没有成为中国社会经济的主体.&lt;/li&gt;
+  &lt;li&gt;中国各地区的经济政治文化发展极不平衡.&lt;/li&gt;
+  &lt;li&gt;人民毫无政治权利,生活极端贫困.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;帝国主义列强瓜分中国的的图谋为什么没有实现&quot;&gt;帝国主义列强瓜分中国的的图谋为什么没有实现&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;一个重要的原因是，帝国主义列强之间的矛盾和相互制约。&lt;/li&gt;
+  &lt;li&gt;根本原因是，中国人民进行了不屈不挠的反侵略斗争。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;旧民主主义革命时期反侵略战争失败的原因&quot;&gt;旧民主主义革命时期反侵略战争失败的原因&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;社会制度的腐败（最根本原因）&lt;/li&gt;
+  &lt;li&gt;经济技术的落后 (重要原因)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;列强对中国的军事侵略战争对应条约&quot;&gt;列强对中国的军事侵略（战争对应条约）&lt;/h3&gt;
+&lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;1840年&lt;/th&gt;
+            &lt;th&gt;第一次鸦片战争&lt;/th&gt;
+            &lt;th&gt;英《南京条约》&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;1856年&lt;/th&gt;
+            &lt;th&gt;第二次鸦片战争&lt;/th&gt;
+            &lt;th&gt;英、法、美、俄《天津条约》&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;1884年&lt;/th&gt;
+            &lt;th&gt;中法战争&lt;/th&gt;
+            &lt;th&gt;1885年《中法新约》&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;1894年&lt;/th&gt;
+            &lt;th&gt;中日甲午战争&lt;/th&gt;
+            &lt;th&gt;1895年《马关条约》&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;1900年&lt;/th&gt;
+            &lt;th&gt;八国联军侵华战争&lt;/th&gt;
+            &lt;th&gt;1901年《辛丑条约》&lt;/th&gt;
+        &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;列强对中国的政治控制&quot;&gt;列强对中国的政治控制&lt;/h3&gt;
+&lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;控制中国外交&lt;/th&gt;
+            &lt;th&gt;《天津条约》&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;享有领事裁判权&lt;/th&gt;
+            &lt;th&gt;1843年《五口通商章程》 （老外横行，大清无权干涉）&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;把持中国海关&lt;/th&gt;
+            &lt;th&gt;英国人&quot;赫德&quot;在中国干了40多年“总税务司”&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;勾结清政府，镇压中国人民的反抗斗争&lt;/th&gt;
+            &lt;th&gt;镇压义和团&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;扶植收买代理人&lt;/th&gt;
+            &lt;th&gt;慈禧妖婆的名言“量中华之国力，结与国之欢心”&lt;/th&gt;
+        &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;###　列强对中国的经济掠夺　　&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;形成了对中国近代工业的垄断&lt;/li&gt;
+  &lt;li&gt;迫使清政府举借外债，以还赔款，并以关税盐税担保&lt;/li&gt;
+  &lt;li&gt;在中国开设银行，使之成为对华输出资本的枢纽&lt;/li&gt;
+  &lt;li&gt;控制中国近代的交通运输业&lt;/li&gt;
+  &lt;li&gt;给中国的农业经济造成了严重破坏&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;列强对中国的文化渗透&quot;&gt;列强对中国的文化渗透&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;外国利用宗教进行侵略活动，鼓吹种族优劣论，为侵华制造舆论。&lt;/li&gt;
+  &lt;li&gt;广学会是基督教在中国设立的最大的出版机构，发行了《万国公报》除了介绍西方的政治、经济、文化和社会状况外，还竭力宣扬殖民地奴化思想，为外国列强侵华进行辩护~&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;第三节近代中国社会的演变&quot;&gt;第三节:近代中国社会的演变&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;中国第一次大规模反侵略斗争识记&quot;&gt;中国第一次大规模反侵略斗争(识记)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;广州郊区三元里,与英国侵略者.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;近代中国的主要矛盾及其相互关系&quot;&gt;&amp;amp;近代中国的主要矛盾及其相互关系&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;主要矛盾:&lt;/strong&gt; 帝国主义与中华民族的矛盾,封建主义与人民大众的矛盾,其中帝国主义与中华民族的矛盾是主要的矛盾.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;相互关系:&lt;/strong&gt; 当帝国列强对中国发动侵略战争时,阶级矛盾降为次要地位,民族矛盾上升为主要矛盾.当侵略者与中国封建政权相勾结的时候,
+尤其是封建地主阶级对人民压迫特别残酷时,阶级矛盾上升为主要矛盾.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;近代以来中华民族面临的两大历史任务及其相互关系&quot;&gt;&amp;amp;近代以来中华民族面临的两大历史任务及其相互关系&lt;/h3&gt;
+
+&lt;h4 id=&quot;任务&quot;&gt;任务&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;求得民族独立和人民解放&lt;/li&gt;
+  &lt;li&gt;实现国家繁荣富强和人民共同富裕&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;相互关系&quot;&gt;相互关系&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;区别:&lt;/strong&gt; 前者要推翻中国原统治秩序,解决生产关系问题;后者要改变近代中国落后的地位和状况解决生产力的问题.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;联系:&lt;/strong&gt; 只有民族独立和人民解放实现了,才能实现国家的繁荣富强.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;近代中国工人的特点&quot;&gt;&amp;amp;近代中国工人的特点&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;深受帝国主义,封建势力,和资产阶级三重压迫和剥削,革命性最强.&lt;/li&gt;
+  &lt;li&gt;人数虽少,但相对集中,便于形成革命力量.&lt;/li&gt;
+  &lt;li&gt;主要由破产农民和家庭手工业者转化而来的,便于形成工农联盟.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;近代民族资产阶级的特点&quot;&gt;&amp;amp;近代民族资产阶级的特点&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;受到外国资本主义和本国封建主义的压迫,在一定条件下可以参加反帝反封建的革命.&lt;/li&gt;
+  &lt;li&gt;力量薄弱,与外国资本主义和本国封建主义有联系,在斗争中缺乏彻底的革命性.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="中国近代史纲要" /><summary type="html">(前面带有”&amp;amp;”号的,是机构标的重点).</summary></entry><entry><title type="html">搞一个域名邮箱</title><link href="http://localhost:4000/_posts/2020-07-09-%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D%E9%82%AE%E7%AE%B1/" rel="alternate" type="text/html" title="搞一个域名邮箱" /><published>2020-07-09T00:00:00+08:00</published><updated>2020-07-09T00:00:00+08:00</updated><id>http://localhost:4000/_posts/%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D%E9%82%AE%E7%AE%B1</id><content type="html" xml:base="http://localhost:4000/_posts/2020-07-09-%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D%E9%82%AE%E7%AE%B1/">&lt;h2 id=&quot;搞一个域名邮箱网易免费企业邮&quot;&gt;搞一个域名邮箱(网易免费企业邮)&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+一直以来我都是用QQ邮箱或者是谷歌邮箱,但是现在自己有一个域名了,不搞一个域名邮箱玩玩就有点说不过去了呢~&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;注册企业邮箱&quot;&gt;注册企业邮箱&lt;/h3&gt;
+&lt;p&gt;本人用的是&lt;a href=&quot;http://app.ym.163.com/ym/reg/view/index&quot;&gt;网易免费企业邮&lt;/a&gt;,先在这里注册好账号.&lt;br /&gt;
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Rosa-panda/material/blog/杂谈/个人域名邮箱/网易企业邮注册页面.png&quot; alt=&quot;网易企业邮注册页面&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mx记录验证&quot;&gt;MX记录验证&lt;/h3&gt;
+&lt;p&gt;平台需要你证明你拥有这个域名,只需要进入购买域名的网站,在域名解析那一栏,添加MX记录,如下图.(添加好了以后,需要等一段时间.)
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Rosa-panda/material/blog/杂谈/个人域名邮箱/MX验证.png&quot; alt=&quot;MX验证&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;popsmtp-服务添加至域名解析&quot;&gt;POP/SMTP 服务添加至域名解析&lt;/h3&gt;
+&lt;p&gt;后来发现不能用邮箱软件登陆邮箱,查了一下才知道, POP/SMTP 服务也是需要添加至域名解析的,要不然无法正常使用POP3那些服务.&lt;br /&gt;
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Rosa-panda/material/blog/杂谈/个人域名邮箱/协议域名解析.png&quot; alt=&quot;协议域名解析&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;客户端上添加邮箱&quot;&gt;客户端上添加邮箱&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Rosa-panda/material/blog/杂谈/个人域名邮箱/邮箱客户端设置.png&quot; alt=&quot;邮箱客户端设置&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;尾yǐ巴&quot;&gt;尾(yǐ)巴)&lt;/h3&gt;
+&lt;p&gt;完成上面那些以后,邮箱就可以正常使用啦,这些操作虽然没有什么技术含量,,但我这个渣渣也是用了一点时间的,特别的,我之前并不知道,需要将 POP/SMTP 服务添加至域名解析.
+百度上面甚至有人说,网易免费邮的 POP3 和 SMTP 服务需要付费邮箱才有,还好~我不是那么容易信鬼话的人.&lt;/p&gt;</content><author><name></name></author><category term="杂谈" /><summary type="html">搞一个域名邮箱(网易免费企业邮) 一直以来我都是用QQ邮箱或者是谷歌邮箱,但是现在自己有一个域名了,不搞一个域名邮箱玩玩就有点说不过去了呢~</summary></entry><entry><title type="html">第二章:网络应用</title><link href="http://localhost:4000/_posts/2020-07-09-%E7%BD%91%E7%BB%9C%E5%BA%94%E7%94%A8/" rel="alternate" type="text/html" title="第二章:网络应用" /><published>2020-07-09T00:00:00+08:00</published><updated>2020-07-09T00:00:00+08:00</updated><id>http://localhost:4000/_posts/%E7%BD%91%E7%BB%9C%E5%BA%94%E7%94%A8</id><content type="html" xml:base="http://localhost:4000/_posts/2020-07-09-%E7%BD%91%E7%BB%9C%E5%BA%94%E7%94%A8/">&lt;h1 id=&quot;第二章网络应用&quot;&gt;第二章:网络应用&lt;/h1&gt;
+
+&lt;h2 id=&quot;第一节计算机网络应用体系结构&quot;&gt;第一节:计算机网络应用体系结构&lt;/h2&gt;</content><author><name></name></author><category term="计算机网络原理" /><summary type="html">第二章:网络应用</summary></entry><entry><title type="html">第一章:计算机网络概述</title><link href="http://localhost:4000/_posts/2020-07-08-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/" rel="alternate" type="text/html" title="第一章:计算机网络概述" /><published>2020-07-08T00:00:00+08:00</published><updated>2020-07-08T00:00:00+08:00</updated><id>http://localhost:4000/_posts/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0</id><content type="html" xml:base="http://localhost:4000/_posts/2020-07-08-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/">&lt;h2 id=&quot;第一章计算机网络概述&quot;&gt;第一章:计算机网络概述&lt;/h2&gt;
+
+&lt;h3 id=&quot;第一节计算机网络基本概念&quot;&gt;第一节:计算机网络基本概念&lt;/h3&gt;
+
+&lt;h4 id=&quot;什么是计算机网络&quot;&gt;&lt;strong&gt;什么是计算机网络&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;定义:计算机网络就是&lt;u&gt;互连&lt;/u&gt;的&lt;u&gt;自治&lt;/u&gt;的计算机集合.&lt;br /&gt;
+自治-无主从关系&lt;br /&gt;
+互连-互连互通&lt;/p&gt;
+
+&lt;h4 id=&quot;什么是internet&quot;&gt;什么是Internet&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;组成细节角度(自身)&lt;br /&gt;
+ISP(Internet Service Provider)&lt;br /&gt;
+数以百万计的互连的计算设备集合(主机,hosts = 端系统)&lt;br /&gt;
+通信链路(光纤,铜缆,无线电)&lt;br /&gt;
+分组交换(路由器,交换机)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;服务角度(用户使用)&lt;br /&gt;
+为网络应用提供通信服务的通信基础设施  &lt;br /&gt;
+为网络应用提供应用编程接口(API)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;什么是网络协议&quot;&gt;&lt;strong&gt;什么是网络协议&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;定义:是为了进行网络中的数据交换而建立的规则,标准或约定.&lt;/p&gt;
+
+&lt;h4 id=&quot;协议三要素&quot;&gt;&lt;strong&gt;协议三要素&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;语法&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;数据与控制信息的结构或格式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;语意&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;需要发出何种控制信息&lt;/li&gt;
+  &lt;li&gt;完成何种动作以及做出何种响应&lt;/li&gt;
+  &lt;li&gt;差错控制&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;时序&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;事件顺序&lt;/li&gt;
+  &lt;li&gt;速度匹配&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;第二节计算机网络结构&quot;&gt;第二节:计算机网络结构&lt;/h3&gt;
+
+&lt;h4 id=&quot;网络边缘&quot;&gt;网络边缘&lt;/h4&gt;
+&lt;p&gt;主机,端系统位于网络的最边缘,因此,连接在网络上所有端系统构成了网络边缘&lt;/p&gt;
+
+&lt;h4 id=&quot;接入网络&quot;&gt;接入网络&lt;/h4&gt;
+&lt;p&gt;接入网络是实现网络边缘的端系统与网络核心连接的接入网络.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;常见的几种接入网络,有以下:&lt;br /&gt;
+电话拨号接入&lt;br /&gt;
+非对称数字用户线路 ADSL &lt;br /&gt;
+局域网&lt;br /&gt;
+移动接入网络&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;网络核心&quot;&gt;网络核心&lt;/h4&gt;
+&lt;p&gt;网络核心是由通信链路互连的分组交换设备构成的网络,作用是实现网络边缘中主机之间的数据中继与转发.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;网络核心如何实现数据中继和转发?&lt;br /&gt;
+数据交换&lt;/li&gt;
+  &lt;li&gt;网络核心的关键功能&lt;br /&gt;
+路由 + 转发&lt;br /&gt;
+路由: 地址转发表(路由表)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;多路复用&quot;&gt;多路复用&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;频分多路复用FDM&lt;br /&gt;
+1.频分多路复用的各用户占用不同的带宽资源,这里的带宽是频率带宽(Hz)而不是数据的发送速率.&lt;br /&gt;
+2.用户在分配到这个频带后,在通信过程中至始至终都占用这个频带.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;时分多路复用TDM&lt;br /&gt;
+1.时分复用是将时间划分为一段段等长的时间复用帧(TDM帧),每个用户在每个TDM帧中占用固定序号的时隙.&lt;br /&gt;
+2.每个用户所占用的的时隙是周期性出现的(其周期就是TDM帧的长度)&lt;br /&gt;
+3.时分复用的所有用户是在不同的时间占用相同的频带宽度.&lt;br /&gt;
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Rosa-panda/material/blog/计算机网络/%20第一章/时分复用.png&quot; alt=&quot;时分复用&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;波分多路复用WDM&lt;br /&gt;
+就是光的频分复用.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;码分多路复用CDM&lt;br /&gt;
+1.广泛应用于无线链路共享(如蜂窝网,卫星通信等)&lt;br /&gt;
+2.每个用户分配唯一的码片序列m bit(其中0用-1表示,1用+1表示)
+3.各用户使用相同频率载波,利用各自码片序列编码数据.&lt;br /&gt;
+4.编码信号 = (原始数据) * (码片序列)&lt;br /&gt;
+如发送比特1(+1),则发送自己的m bit码片序列.&lt;br /&gt;
+如发送比特0(-1),则发送该码片序列m bit的码片序列的反码.&lt;br /&gt;
+5.各用户码片序列相互正交.(数学没学,不知道什么叫做正交)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;第三节数据交换技术&quot;&gt;第三节:数据交换技术&lt;/h3&gt;
+
+&lt;h4 id=&quot;数据交换的概念&quot;&gt;数据交换的概念&lt;/h4&gt;
+&lt;p&gt;数据交换是实现大规模网络核心上进行数据传输的技术基础,基于不同的交换技术构建的网络分别称之为电路交换网络,
+报文交换网络,和分组交换网络.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;数据交换网络&lt;br /&gt;
+将许多交换设备互连,构成一个数据交换与转发的中间网络,这个中间网络不需要关心数据传输的内容,而只是为这些数据从一个
+节点到另一个节点提供数据交换和中继功能,这就是数据交换网络.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;电路交换电话网络&quot;&gt;电路交换(电话网络)&lt;/h4&gt;
+&lt;p&gt;电路交换是最早出现的一种交换方式,在电路交换中,首先需要通过中间交换节点为两台主机之间建立一条专用的通信线路,称为电路,
+然后再利用该电路进行通信,通信结束后再拆除电路.
+&lt;strong&gt;特点&lt;/strong&gt;:资源独占,传输速率恒定&lt;br /&gt;
+&lt;strong&gt;优点&lt;/strong&gt;:实时性高,时延和时延抖动较小.&lt;br /&gt;
+&lt;strong&gt;缺点&lt;/strong&gt;:信道利用率低,且传输速率单一.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;建立电路&lt;br /&gt;
+发送主机需要先发出呼叫请求信号给接收主机,然后经过若干节点沿途接通一条物理链路后,再由接受主机发出应答信号
+给发送主机,这样双方之间的电路连接就建立成功了.&lt;/li&gt;
+  &lt;li&gt;传输数据&lt;br /&gt;
+电路链接建立后,在每一段物理链路上都为双方通信预留了相应的带宽,这个带宽在双方通信期间将一直保留并独占.&lt;br /&gt;
+电路链接中,被传输的数据可以是数字数据也可以是模拟数据,数据的传输可以是单工也可以是半双工.&lt;/li&gt;
+  &lt;li&gt;拆除电路&lt;br /&gt;
+数据传输结束后,要拆除电路,这个拆除电路的动作可以由两个主机中的任何一个主机发起并完成,拆除信号必须传送到电路所经过的各个节点.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;报文交换消息交换&quot;&gt;报文交换(消息交换)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;工作过程&lt;br /&gt;
+发送方把要发送的信息附加上发送/接收主机的地址及其他控制信息,构成一个完整的报文,然后以报文为单位,在交换网络各个节点之间
+以存储-转发的方式发送,直到送达目的主机.&lt;/li&gt;
+  &lt;li&gt;特点&lt;br /&gt;
+不需要建立连接&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;分组交换&quot;&gt;分组交换&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;分组交换的原理&lt;br /&gt;
+分组交换是报文交换的一种改进,它将一个完整报文拆分成若干个分组,每个分组的长度有一个上限,有限长度的分组
+使得每个节点所需的存储能力降低,分组可以存储到内存中,提高了交换速度.&lt;/li&gt;
+  &lt;li&gt;分组交换的优点&lt;br /&gt;
+交换设备存储容量要求低&lt;br /&gt;
+交换速度快&lt;br /&gt;
+可靠传输效率高&lt;br /&gt;
+更加公平&lt;/li&gt;
+  &lt;li&gt;分组长度的确立&lt;br /&gt;
+没看懂,不知道怎么推导的,以后再来想办法吧!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;第四节计算机网络性能&quot;&gt;第四节:计算机网络性能&lt;/h3&gt;
+
+&lt;h4 id=&quot;速率和带宽&quot;&gt;速率和带宽&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;速率即数据率或称数据传输率或比特率&lt;/li&gt;
+  &lt;li&gt;网络上的&lt;u&gt;带宽&lt;/u&gt;通常是数字信道所能传送的最高数据率.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;时延&quot;&gt;时延&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;节点处理时延(一般来说很短)&lt;br /&gt;
+差错检测&lt;br /&gt;
+确定输出链路&lt;/li&gt;
+  &lt;li&gt;排队时延(不可预测)&lt;br /&gt;
+等待输出链路可用 
+取决于路由器的拥塞程度&lt;/li&gt;
+  &lt;li&gt;传输时延&lt;br /&gt;
+&lt;u&gt;一个分组&lt;/u&gt;在输出链路发送时,所用的时间,称为传输时延.&lt;br /&gt;
+分组长度 比 链路带宽等于传输时延&lt;/li&gt;
+  &lt;li&gt;传播时延&lt;br /&gt;
+&lt;u&gt;每个比特&lt;/u&gt;从发送端出来,经过一段距离的物理链路到达接收端所需要的时间.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;时延带宽积&quot;&gt;时延带宽积&lt;/h4&gt;
+&lt;p&gt;一段物理链路的传播时延与链路带宽的乘积,称为时延带宽积.&lt;br /&gt;
+反映了一段链路可以容纳的数据位数.&lt;/p&gt;
+
+&lt;h4 id=&quot;丢包&quot;&gt;丢包&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;丢包原因&lt;br /&gt;
+分组到达已满队列将被丢弃(即丢包)&lt;/li&gt;
+  &lt;li&gt;丢包率&lt;br /&gt;
+丢包数 比 以发送分组总数 就是丢包率.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;吞吐量&quot;&gt;吞吐量&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;吞吐量表示发送端与接收端之间的传送数据速率&lt;/li&gt;
+  &lt;li&gt;瓶颈链路&lt;br /&gt;
+端到端路径上,限制端到端吞吐量的链路.(一般是链路中,数据传输速率最低的一段链路)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;第五节计算机网络体系结构&quot;&gt;第五节:计算机网络体系结构&lt;/h3&gt;
+
+&lt;h4 id=&quot;为什么会有计算机分层网络体系结构&quot;&gt;为什么会有计算机&lt;u&gt;分层&lt;/u&gt;网络体系结构&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;结构清晰,有利于识别复杂系统的部件及其关系.&lt;/li&gt;
+  &lt;li&gt;模块化分层易于系统的更新和维护&lt;br /&gt;
+任何一层的实现的改变，对于其他系统层都是透明的．&lt;/li&gt;
+  &lt;li&gt;有利于标准化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;osi参考模型理论好&quot;&gt;OSI参考模型(理论好)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Rosa-panda/material/blog/计算机网络/%20第一章/OSI参考模型.png&quot; alt=&quot;OSI参考模型 &quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;物理层(无结构比特率传输)&lt;br /&gt;
+主要实现在传输介质上实现无结构比特流传输.&lt;/li&gt;
+  &lt;li&gt;数据链路层(流量控制,差错控制,接入控制)&lt;br /&gt;
+负责结点~结点之间的数据传输.(node-to-node)&lt;br /&gt;
+组合数据帧&lt;br /&gt;
+物理寻址(在帧头中增加,发送端或接收端的物理地址标识(zhì))数据.&lt;/li&gt;
+  &lt;li&gt;网络层(路由,分组转发)&lt;br /&gt;
+负责源主机到目的主机数据分组交付.&lt;br /&gt;
+逻辑寻址(通过全局唯一的逻辑地址,确保数据分组被送达目的主机,如ip地址)&lt;/li&gt;
+  &lt;li&gt;传输层(端到端的传输)&lt;br /&gt;
+分段和重组&lt;br /&gt;
+连接控制&lt;br /&gt;
+流量控制&lt;br /&gt;
+差错控制&lt;/li&gt;
+  &lt;li&gt;会话层(对话控制,同步)
+一般不实际存在,主要是方便概念理解.&lt;/li&gt;
+  &lt;li&gt;表示层(数据表示转化)
+数据表示转化&lt;br /&gt;
+文本压缩/解压缩
+数据加密/解密
+(表示层一般也不独立存在,程序员开发应用的时候,就会考虑这一层了,用应用层实现)
+*应用层(给用户的接口)&lt;br /&gt;
+为用户提供一个使用网络的接口&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tcpip-参考模型实用&quot;&gt;TCP/IP 参考模型(实用)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;4层 TCP/IP 参考模型&lt;br /&gt;
+网络接口层并没有定义相关的协议,只有一个要求,只要能封装网际层的IP分组就好.&lt;br /&gt;
+传输层只定义两个协议,一个是TCP一个是UDP.&lt;br /&gt;
+网络应用层,的一切协议都是基于TCP和UDP协议而运作的. &lt;br /&gt;
+IP over Everything&lt;br /&gt;
+首先所有的应用都是架构在IP之上的,然后作为具体的底层网络,只要能够封装IP分组,能够把IP分组从一个点传输到另一个点就OK了.&lt;br /&gt;
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Rosa-panda/material/blog/计算机网络/%20第一章/4层TCP-IP参考模型.png&quot; alt=&quot;4层TCP/IP参考模型&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;5层参考模型(现在主要使用的模型)&lt;br /&gt;
+5层模型就是把4层的模型,最后的网络接口层展开了.&lt;br /&gt;
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Rosa-panda/material/blog/计算机网络/%20第一章/5层参考模型.png&quot; alt=&quot;5层参考模型&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;5层模型的数据封装  &lt;br /&gt;
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Rosa-panda/material/blog/计算机网络/%20第一章/5层模型的数据封装.png&quot; alt=&quot;5层模型的数据封装&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="计算机网络原理" /><summary type="html">第一章:计算机网络概述</summary></entry><entry><title type="html">JavaScript DOM</title><link href="http://localhost:4000/_posts/2020-06-30-JavaScript-DOM/" rel="alternate" type="text/html" title="JavaScript DOM" /><published>2020-06-30T00:00:00+08:00</published><updated>2020-06-30T00:00:00+08:00</updated><id>http://localhost:4000/_posts/JavaScript%20DOM</id><content type="html" xml:base="http://localhost:4000/_posts/2020-06-30-JavaScript-DOM/">&lt;h2 id=&quot;javascript-dom&quot;&gt;JavaScript DOM&lt;/h2&gt;
+
+&lt;h3 id=&quot;文档d&quot;&gt;文档:D&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;document&lt;/strong&gt;:如果没有document,那么DOM就无从谈起.&lt;/p&gt;
+
+&lt;h3 id=&quot;对象o&quot;&gt;对象:O&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;object&lt;/strong&gt;:对象是一种自足的数据集合,与某个特定对象相关联的变量称为这个对象的属性,只能通过某个特定对象调用的函数被称为这个对象的方法.&lt;/p&gt;
+
+&lt;h3 id=&quot;模型m&quot;&gt;模型:M&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;mode&lt;/strong&gt;:可以比做模型,但是也可以看作一个树(数学意义上的概念),DOM中html是根树.&lt;/p&gt;
+
+&lt;h2 id=&quot;节点&quot;&gt;节点&lt;/h2&gt;
+&lt;p&gt;在DOM中一切都是由节点组成,节点之中包涵节点.&lt;/p&gt;
+
+&lt;h3 id=&quot;获取元素&quot;&gt;获取元素&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;getElementById()方法(返回一个对象)&lt;br /&gt;
+这个方法将返回一个与那个有着给定id属性的值的元素节点对应的对象.&lt;br /&gt;
+getElementById是document对象特有的函数,例:
+    &lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;document.getElementById(&quot;purchases&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;getElementsByTagName()方法(返回一个数组)&lt;br /&gt;
+这个函数的参数是标签的名字,例如:
+    &lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;document.getElementsByTagName(&quot;li&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;getElementsByClassName()方法(返回一个数组)&lt;br /&gt;
+参数是类名,返回值是所有名字中带有参数的类的数组.例:
+    &lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;document.getElementsByClassName(&quot;sale&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;获取和设置属性&quot;&gt;获取和设置属性&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;getAttribute
+getAttribute是一个函数,它只有一个参数,就是打算查询的属性的名字.但是getAttribute方法不属于document对象,
+所以不能通过document对象来调用,它只能通过元素节点对象来调用.例如,可以与getElementSByTagName方法合用,获取
+每个&amp;lt;p&amp;gt;元素的title属性,如下所示:
+    &lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;var paras = document.getElementsByTagName(&quot;p&quot;)
+for (var i = 0; i &amp;lt; paras.length; i++)
+{
+  alert(paras[i].getAttribute(&quot;title&quot;));
+}
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;setAttribute
+setAttribute方法可以用于,对属性节点的值进行修改,例如:
+    &lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;var shopping = document.getElementById(&quot;purchases&quot;);
+shopping.setAttribute(&quot;title&quot;,&quot;a list of goods&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;附&quot;&gt;附&lt;/h2&gt;
+&lt;p&gt;Dom试玩.html&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&quot;utf-8&quot; /&amp;gt;
+    &amp;lt;title&amp;gt;Shopping list&amp;lt;/title&amp;gt;
+    &amp;lt;script type=&quot;text/javascript&quot; src=&quot;js/test1.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;h1&amp;gt;What to buy&amp;lt;/h1&amp;gt;
+&amp;lt;p title=&quot;a gentle reminder&quot;&amp;gt;Don't forget to buy this stuff.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;test&amp;lt;/p&amp;gt;
+&amp;lt;ul id=&quot;purchases&quot;&amp;gt;
+    &amp;lt;li&amp;gt;A tin of beans&amp;lt;/li&amp;gt;
+    &amp;lt;li class=&quot;sale&quot;&amp;gt;Cheese&amp;lt;/li&amp;gt;
+    &amp;lt;li class=&quot;sale important&quot;&amp;gt;Milk&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;test1.js&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;alert(typeof document.getElementById(&quot;purchases&quot;));     //getElementById
+alert(document.getElementsByTagName(&quot;li&quot;).length);   //getElementsByTagName
+var items = document.getElementsByTagName(&quot;li&quot;).length;
+for (var i=0; i &amp;lt; items; i++)
+{
+    alert(typeof document.getElementsByTagName(&quot;li&quot;)[i]);
+}
+var shopping = document.getElementById(&quot;purchases&quot;);
+var sales = shopping.getElementsByClassName(&quot;sale&quot;);        //getElementsByClassName
+alert (sales.length);
+var parars = document.getElementsByTagName(&quot;p&quot;);
+for (var i = 0; i &amp;lt; parars.length; i++)
+{
+    var title_text = alert(parars[i].getAttribute(&quot;title&quot;));
+    if (title_text != null)
+    {
+        alert(title_text);
+    }
+    if (parars[i].getAttribute(&quot;title&quot;))
+    {
+        alert(parars[i].getAttribute(&quot;title&quot;));             //getAttribute
+    }
+}
+var paras = document.getElementsByTagName(&quot;p&quot;);
+for (var i = 0; i &amp;lt; paras.length; i++){
+    var title_text = paras[i].getAttribute(&quot;title&quot;);
+    if (title_text)
+    {
+        paras[i].setAttribute(&quot;title&quot;,&quot;12345&quot;);        //setAttribute
+        alert(paras[i].getAttribute(&quot;title&quot;));
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;</content><author><name></name></author><category term="JavaScript" /><summary type="html">JavaScript DOM</summary></entry></feed>
