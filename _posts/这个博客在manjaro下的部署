@@ -1,0 +1,10 @@
+manjaro下这个博客的环境部署
+#安装ruby
+yay -S ruby2.7  (千万不要yay -S ruby)
+cd /usr/bin
+sudo cp ruby-2.7 ./ruby
+
+#切换到项目文件目录
+gem install bundler jekyll
+bundle install
+bundle exec jekyll serve #运行项目
