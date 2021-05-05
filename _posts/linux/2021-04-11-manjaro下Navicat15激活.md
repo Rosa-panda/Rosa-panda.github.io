@@ -60,4 +60,5 @@ sudo chmod +x navicat15-premium-cs.AppImage
 #在前面已经启动了navicat15的情况下,执行下面一行
 ./navicat-keygen-tools/bin/navicat-keygen --text ./RegPrivateKey.pem
 #执行完成后根据英文提示输入东西就好了,要记得断网,要不然貌似不会让你手动激活.
+#最后是填版本号的，注意看提示。
 ```

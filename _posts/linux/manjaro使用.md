@@ -40,3 +40,12 @@ vim ~/.xprofile
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
+
+### 安装java 
+加一个环境变量，文件位置是/etc/profile
+JAVA_HOME=/home/hxy/java/jdk-13
+CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+PATH=$JAVA_HOME/bin:$PATH
+export JAVA_HOME CLASSPATH PATH
+
+### 

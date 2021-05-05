@@ -5,7 +5,7 @@
 docker search mysql
 docker pull mysql
 docker images
-docker run -itd --name root -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql(其实到这里已经好了)
+docker run -itd --name root -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql(其实到这里已经好了)(最后的mysql换成镜像id也可以)  
 docker -ps a
 
 
@@ -17,3 +17,10 @@ docker rm 容器id
 
 删除镜像
 docker rmi 镜像名
+
+
+docker exec -it 6299b99c09e6 bash
+
+mysql更改root密码
+mysql> ALTER USER 'root'@'%' IDENTIFIED BY 'zyl.BGT5@1';
+Query OK, 0 rows affected (0.01 sec)
