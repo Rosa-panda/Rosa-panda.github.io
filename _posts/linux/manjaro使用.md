@@ -47,5 +47,3 @@ JAVA_HOME=/home/hxy/java/jdk-13
 CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 PATH=$JAVA_HOME/bin:$PATH
 export JAVA_HOME CLASSPATH PATH
-
-### 
